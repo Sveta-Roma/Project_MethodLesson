@@ -17,8 +17,9 @@ public class Array {
     public void getSortArray(int [] array){
         Arrays.sort(array,0,array.length);
         for(int i = 0; i < array.length; i++){
-            System.out.println(array[i] + " ");
-        }
+            //System.out.println(array[i] + " ");
+    }
+        System.out.println(Arrays.toString(array));
     }
     /*public void getSortArray(int [] array){
         Arrays.sort(array,0,array.length);
