@@ -7,10 +7,12 @@ public class ArrayOnTen {
      Решите сами, должен ли метод изменять исходный массив, или в результате работы будет создаваться новый.
       */
 
-    public void getArrayIncreaseOnTen(int [] array){
-        for(int i = 0; i < array.length; i++){
-            //System.out.println(array[i] + " ");
-        }
+    public double[] getArrayIncreaseOnTen(double [] array){
+            for(int i = 0; i < array.length; i++){
+                array[i] = array[i] + array[i] *0.1;
+            }
         System.out.println(Arrays.toString(array));
+        return array;
+        }
     }
-}
+
