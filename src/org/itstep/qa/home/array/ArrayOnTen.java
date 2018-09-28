@@ -11,7 +11,7 @@ public class ArrayOnTen {
             for(int i = 0; i < array.length; i++){
                 array[i] = array[i] + array[i] *0.1;
             }
-        System.out.println(Arrays.toString(array));
+        //System.out.println(Arrays.toString(array));
         return array;
         }
     }
